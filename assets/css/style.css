@@ -845,3 +845,20 @@ h1,h2,h3,h4,.prog__card h3,.fcard h3,.step h3,.value b,.misi b,.mega__item b,.hr
 .uni__card::after{background:none}
 .tmarquee::before,.tmarquee::after{background:var(--blue-50)}
 
+
+/* ---------- 22. FIX KONTRAS FONT: putih di atas latar solid ---------- */
+/* judul & isi banner program (biru elektrik solid) -> putih */
+.prog__banner h3{color:#fff}
+.prog__card[style*="--v-dm"] .prog__banner,
+.prog__card[style*="--v-da"] .prog__banner,
+.prog__card[style*="--v-hr"] .prog__banner,
+.prog__card[style*="--v-ai"] .prog__banner,
+.prog__card[style*="--v-se"] .prog__banner{color:#fff}
+
+/* banner gold (Private Class): judul tetap hitam agar kontras, tag diganti putih */
+.prog__card[style*="--v-gold"] .prog__banner h3{color:var(--ink)}
+.prog__card[style*="--v-gold"] .prog__banner .tag{background:#fff;border-color:#fff;color:var(--ink)}
+
+/* jaga elemen putih lain di atas latar biru solid */
+.btn--primary,.btn--dark,.btn--outline:hover{color:#fff}
+
