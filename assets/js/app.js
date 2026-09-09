@@ -10,7 +10,7 @@
   var isTouch = window.matchMedia('(hover: none)').matches;
 
   /* ---------- 1. DATA ---------- */
-  var TOPIK = ['Google Ads', 'Meta Ads', 'TikTok Ads', 'SEO &amp; SEM', 'Content Marketing', 'Social Media', 'Email Marketing', 'Shopee &amp; Tokopedia', 'Live Selling', 'Analytics', 'Copywriting', 'Branding', 'Marketplace', 'Community Management', 'E-commerce'];
+  var TOPIK = ['Jago Shopee', 'TikTok Ads Master', 'Kelas Suhu Lazada', 'Mahir Google Ads', 'Mastah Meta Ads', 'Social Media Specialist', 'Marketing AI Class', 'Affiliate Marketing', 'Kelas Vibe Coding', 'Meta Ads Blueprint', 'Kelas AI Bisnis &amp; Productivity'];
   var MITRA = ['Riset Pasar', 'Audit Kanal', 'Strategi Iklan', 'Pendampingan UMKM', 'Pelatihan Korporat'];
 
   function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
